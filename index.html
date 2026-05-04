@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoga Bagas Kurniawan — Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#home" class="nav__logo">YBK<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg-text" aria-hidden="true">PORTFOLIO</div>
+      <div class="hero__content">
+        <p class="hero__greeting">Halo, saya</p>
+        <h1 id="hero-title" class="hero__name">Yoga Bagas<br /><em>Kurniawan</em></h1>
+        <p class="hero__role">Frontend Developer &amp; UI Enthusiast</p>
+        <p class="hero__desc">
+          Saya membangun antarmuka web yang cepat, aksesibel, dan menyenangkan
+          digunakan — dari desain hingga kode yang bersih.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">Lihat Proyek</a>
+          <a href="#contact" class="btn btn--ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero__avatar" aria-hidden="true">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <span class="avatar-emoji">👨‍💻</span>
+          </div>
+        </div>
+        <div class="hero__badge">
+          <span class="badge__dot"></span> Open to work
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section__label">01 — Tentang</div>
+        <h2 id="about-title" class="section__title">Sedikit tentang<br /><em>diri saya</em></h2>
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              Saya adalah seorang <strong>Frontend Developer</strong> dengan 2+ tahun pengalaman
+              membangun produk digital. Saya senang mengubah desain menjadi kode
+              yang hidup — memperhatikan setiap detail piksel dan performa.
+            </p>
+            <p>
+              Di luar coding, saya aktif belajar tentang desain UI/UX dan suka
+              berbagi ilmu lewat tulisan dan webinar komunitas.
+            </p>
+            <ul class="about__facts">
+              <li><span>📍</span> Pekalongan, Indonesia</li>
+              <li><span>🎓</span> S1 Teknik Informasi</li>
+              <li><span>💼</span> 2+ Tahun Pengalaman</li>
+              <li><span>🌐</span> Tersedia Remote &amp; Onsite</li>
+            </ul>
+          </div>
+          <div class="about__stats">
+            <div class="stat-card">
+              <div class="stat-card__num">12+</div>
+              <div class="stat-card__label">Proyek Selesai</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num">5+</div>
+              <div class="stat-card__label">Klien Puas</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num">2+</div>
+              <div class="stat-card__label">Tahun Coding</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num">3</div>
+              <div class="stat-card__label">Sertifikasi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="skills section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section__label">02 — Keahlian</div>
+        <h2 id="skills-title" class="section__title">Apa yang bisa<br /><em>saya lakukan</em></h2>
+        <div class="skills__grid">
+
+          <article class="skill-card" aria-label="HTML5">
+            <div class="skill-card__icon">🏗️</div>
+            <h3 class="skill-card__name">HTML5</h3>
+            <p class="skill-card__desc">Semantic markup, aksesibilitas, dan SEO-friendly structure.</p>
+            <div class="skill-card__bar" role="meter" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Keahlian HTML5 90%">
+              <div class="skill-card__fill" style="--pct: 90%"></div>
+            </div>
+          </article>
+
+          <article class="skill-card" aria-label="CSS3">
+            <div class="skill-card__icon">🎨</div>
+            <h3 class="skill-card__name">CSS3 / SCSS</h3>
+            <p class="skill-card__desc">Responsive layout, animasi, dan desain sistem modern.</p>
+            <div class="skill-card__bar" role="meter" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Keahlian CSS 85%">
+              <div class="skill-card__fill" style="--pct: 85%"></div>
+            </div>
+          </article>
+
+          <article class="skill-card" aria-label="JavaScript">
+            <div class="skill-card__icon">⚡</div>
+            <h3 class="skill-card__name">JavaScript</h3>
+            <p class="skill-card__desc">ES6+, DOM manipulation, fetch API, dan logika interaktif.</p>
+            <div class="skill-card__bar" role="meter" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Keahlian JavaScript 80%">
+              <div class="skill-card__fill" style="--pct: 80%"></div>
+            </div>
+          </article>
+
+          <article class="skill-card" aria-label="React">
+            <div class="skill-card__icon">⚛️</div>
+            <h3 class="skill-card__name">React.js</h3>
+            <p class="skill-card__desc">Component-based UI, hooks, dan state management.</p>
+            <div class="skill-card__bar" role="meter" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Keahlian React 75%">
+              <div class="skill-card__fill" style="--pct: 75%"></div>
+            </div>
+          </article>
+
+          <article class="skill-card" aria-label="Git">
+            <div class="skill-card__icon">🔧</div>
+            <h3 class="skill-card__name">Git &amp; GitHub</h3>
+            <p class="skill-card__desc">Version control, branching, pull request, dan GitHub Pages.</p>
+            <div class="skill-card__bar" role="meter" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Keahlian Git 85%">
+              <div class="skill-card__fill" style="--pct: 85%"></div>
+            </div>
+          </article>
+
+          <article class="skill-card" aria-label="Figma">
+            <div class="skill-card__icon">✏️</div>
+            <h3 class="skill-card__name">Figma</h3>
+            <p class="skill-card__desc">UI design, prototyping, dan design-to-code handoff.</p>
+            <div class="skill-card__bar" role="meter" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Keahlian Figma 70%">
+              <div class="skill-card__fill" style="--pct: 70%"></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="projects section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section__label">03 — Proyek</div>
+        <h2 id="projects-title" class="section__title">Karya yang<br /><em>pernah saya buat</em></h2>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__thumb" style="--clr: #f97316;" aria-hidden="true">
+              <span>🛒</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+              </div>
+              <h3 class="project-card__title">Toko Online Sederhana</h3>
+              <p class="project-card__desc">
+                Landing page e-commerce dengan fitur filter produk, keranjang belanja
+                interaktif, dan desain mobile-friendly.
+              </p>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--sm btn--primary" aria-label="Demo Toko Online">Live Demo</a>
+                <a href="#" class="btn btn--sm btn--ghost" aria-label="Source code Toko Online">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb" style="--clr: #8b5cf6;" aria-hidden="true">
+              <span>📋</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">React</span><span class="tag">LocalStorage</span>
+              </div>
+              <h3 class="project-card__title">Task Manager App</h3>
+              <p class="project-card__desc">
+                Aplikasi manajemen tugas dengan fitur tambah, edit, hapus, dan
+                filter berdasarkan status. Data tersimpan di localStorage.
+              </p>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--sm btn--primary" aria-label="Demo Task Manager">Live Demo</a>
+                <a href="#" class="btn btn--sm btn--ghost" aria-label="Source code Task Manager">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__thumb" style="--clr: #10b981;" aria-hidden="true">
+              <span>🌤️</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">JS</span><span class="tag">API</span><span class="tag">CSS</span>
+              </div>
+              <h3 class="project-card__title">Weather Dashboard</h3>
+              <p class="project-card__desc">
+                Dashboard cuaca real-time yang mengonsumsi OpenWeatherMap API.
+                Menampilkan prakiraan 5 hari dengan animasi ikon cuaca.
+              </p>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--sm btn--primary" aria-label="Demo Weather Dashboard">Live Demo</a>
+                <a href="#" class="btn btn--sm btn--ghost" aria-label="Source code Weather Dashboard">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section__label">04 — Kontak</div>
+        <h2 id="contact-title" class="section__title">Ayo<br /><em>terhubung!</em></h2>
+        <div class="contact__grid">
+          <div class="contact__info">
+            <p class="contact__desc">
+              Punya proyek menarik atau ingin berkolaborasi? Saya terbuka untuk
+              peluang freelance, full-time, maupun diskusi seputar teknologi.
+            </p>
+            <ul class="contact__list">
+              <li>
+                <span class="contact__icon" aria-hidden="true">📧</span>
+                <a href="mailto:yogabag4s@gmail.com">yogabag4s@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">💼</span>
+                <a href="https://linkedin.com/in/yoga-bagas-kurniawan " target="_blank" rel="noopener noreferrer">linkedin.com/in/yoga-bagas-kurniawan</a>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">🐙</span>
+                <a href="https://github.com/yogabagaskurniawan" target="_blank" rel="noopener noreferrer">github.com/yogabagaskurniawan</a>
+              </li>
+            </ul>
+          </div>
+          <form class="contact__form" aria-label="Form kontak">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Nama lengkap kamu" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="email@kamu.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tulis pesanmu di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Kirim Pesan 🚀</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Yoga Bagas Kurniawan. Dibuat dengan ❤️ dan banyak kopi.</p>
+      <p class="footer__back"><a href="#home">Kembali ke atas ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
