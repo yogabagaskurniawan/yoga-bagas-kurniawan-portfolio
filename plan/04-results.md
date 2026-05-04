@@ -23,9 +23,9 @@
 
 ## Portfolio Info
 - **Nama:** Yoga Bagas Kurniawan
-- **Repository:** [GitHub URL]
-- **Live URL:** [GitHub Pages URL]
-- **Date:** [Tanggal]
+- **Repository:** [\[GitHub URL\]](https://github.com/yogabagaskurniawan/yoga-bagas-kurniawan-portfolio)
+- **Live URL:** [\[GitHub Pages URL\]](https://yogabagaskurniawan.github.io/yoga-bagas-kurniawan-portfolio/)
+- **Date:** 4 Mei 2026
 
 ## Reflection
 

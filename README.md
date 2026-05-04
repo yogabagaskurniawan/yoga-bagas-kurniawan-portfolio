@@ -1,9 +1,9 @@
-# [Nama Kamu] — Portfolio Website
+# Yoga Bagas Kurniawan — Portfolio Website
 
 Portfolio website pribadi yang dibuat sebagai tugas **KAreerr Elevation Vol. 2**.
 
 ## 🔗 Live Demo
-[https://[username].github.io/[nama]-portfolio/](https://github.com)
+[https://yogabagaskurniawan.github.io/yoga-bagas-kurniawan-portfolio/](https://github.com)
 
 ## 📁 Struktur Repo
 
@@ -40,4 +40,4 @@ Portfolio website pribadi yang dibuat sebagai tugas **KAreerr Elevation Vol. 2**
 1. Push semua file ke repository GitHub
 2. Buka **Settings** → **Pages**
 3. Source: `main` / `(root)` → **Save**
-4. Tunggu beberapa menit → live di `https://[username].github.io/[repo]/`
+4. Tunggu beberapa menit → live di `https://yogabagaskurniawan.github.io/yoga-bagas-kurniawan-portfolio/`
