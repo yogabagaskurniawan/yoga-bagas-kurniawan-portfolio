@@ -3,7 +3,7 @@
 Portfolio website pribadi yang dibuat sebagai tugas **KAreerr Elevation Vol. 2**.
 
 ## 🔗 Live Demo
-[https://yogabagaskurniawan.github.io/yoga-bagas-kurniawan-portfolio/](https://github.com)
+[\[GitHub Pages URL\]](https://yogabagaskurniawan.github.io/yoga-bagas-kurniawan-portfolio/)
 
 ## 📁 Struktur Repo
 
